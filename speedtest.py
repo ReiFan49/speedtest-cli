@@ -46,7 +46,7 @@ class FakeShutdownEvent(object):
 
     @staticmethod
     def isSet():
-        "Dummy method to always return false"""
+        """Dummy method to always return false"""
         return False
 
     is_set = isSet
